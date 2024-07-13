@@ -6,6 +6,8 @@ public class Biografia {
     private JTextArea textoBiografia;
     public JPanel panelBiografia;
     private JButton botonHobby;
+    private JScrollPane scroll;
+
     public Biografia() {
         botonHobby.addActionListener(new ActionListener() {
             @Override

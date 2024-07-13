@@ -36,18 +36,21 @@
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
-      <component id="3c55c" class="javax.swing.JTextArea" binding="textoBiografia">
+      <scrollpane id="97df7" binding="scroll">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <minimum-size width="200" height="125"/>
-            <preferred-size width="80" height="80"/>
-            <maximum-size width="800" height="400"/>
-          </grid>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties>
-          <text value="Hola, mi nombre es Marlon Nicolalde, tengo 24 años, estudio la carrera de Tecnología Superior en Desarrollo de Software, actualmente estoy en tercer semestre y me gusta mucho escuchar música y jugar videojuegos con mis amigos"/>
-        </properties>
-      </component>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3c55c" class="javax.swing.JTextArea" binding="textoBiografia">
+            <constraints/>
+            <properties>
+              <text value="Hola, mi nombre es Marlon Nicolalde, tengo 24 años, estudio la carrera de Tecnología Superior en Desarrollo de Software, actualmente estoy en tercer semestre y me gusta mucho escuchar música y jugar videojuegos con mis amigos"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
     </children>
   </grid>
 </form>
