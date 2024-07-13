@@ -7,7 +7,7 @@ public class Hobby {
     private JButton Regreso;
     private JLabel cargaImagen;
     ImageIcon imageIcon=new ImageIcon("C://Users//MY HP//Downloads//Imagen_Hobby.jpeg");
-    JLabel getCargaImagen = new JLabel(imageIcon);
+    //JLabel getCargaImagen = new JLabel(imageIcon);
     public JLabel getCargaImagen() {
         return cargaImagen;
     }
